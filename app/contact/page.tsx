@@ -30,6 +30,7 @@ import {
   CheckCircle,
 } from "lucide-react"
 import { format } from "date-fns"
+import Image from "next/image"
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -965,10 +966,13 @@ export default function ContactPage() {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-primary-foreground/10 rounded-md flex items-center justify-center">
-                  <span className="text-primary-foreground font-bold text-sm">EH</span>
-                </div>
-                <span className="font-medium">Easy Homes</span>
+               <Image
+                                   src="/easylogo.png"
+                                   alt="logo"
+                                   width={100}
+                                   height={100}
+                                   className="rounded-full"
+                                 />
               </div>
               <p className="text-primary-foreground/80 text-sm leading-relaxed">
                 Revolutionary housing solutions for modern Nigeria through sustainable, affordable modular construction.
@@ -1032,6 +1036,7 @@ export default function ContactPage() {
           <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
             <p className="text-sm text-primary-foreground/80">
               © 2025 Easy Homes Nigeria Limited. All rights reserved. This website is for educational purposes only.
+
             </p>
           </div>
         </div>

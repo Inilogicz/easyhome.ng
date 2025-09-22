@@ -483,7 +483,8 @@ export default function AboutPage() {
 
           <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
             <p className="text-sm text-primary-foreground/80">
-              © 2025 Easy Homes Nigeria Limited. All rights reserved. 
+              © 2025 Easy Homes Nigeria Limited.All rights reserved. This website is for educational purposes only.
+. 
             </p>
           </div>
         </div>

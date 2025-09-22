@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { ArrowRight, Clock, DollarSign, Leaf, Zap, Shield, Star, Home, Users, Award, Sparkles } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image"
 
 export default function HomePage() {
   return (
@@ -202,7 +203,7 @@ export default function HomePage() {
             <Card className="border-2 border-primary/20 hover:border-primary/40 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
               <div className="aspect-video relative overflow-hidden rounded-t-lg">
                 <img
-                  src="/compact-student-housing-unit-modern-design-nigeria.jpg"
+                  src="/student.png"
                   alt="Compact Student Unit"
                   className="w-full h-full object-cover"
                 />
@@ -223,7 +224,7 @@ export default function HomePage() {
             <Card className="border-2 border-secondary/20 hover:border-secondary/40 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
               <div className="aspect-video relative overflow-hidden rounded-t-lg">
                 <img
-                  src="/professional-housing-unit-modern-apartment-nigeria.jpg"
+                  src="/housing.png"
                   alt="Professional Housing Unit"
                   className="w-full h-full object-cover"
                 />
@@ -246,7 +247,7 @@ export default function HomePage() {
             <Card className="border-2 border-accent/20 hover:border-accent/40 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
               <div className="aspect-video relative overflow-hidden rounded-t-lg">
                 <img
-                  src="/family-home-modular-house-nigeria-three-bedroom-co.jpg"
+                  src="/family.png"
                   alt="Family Home"
                   className="w-full h-full object-cover"
                 />
@@ -367,10 +368,13 @@ export default function HomePage() {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-primary-foreground/10 rounded-md flex items-center justify-center">
-                  <span className="text-primary-foreground font-bold text-sm">EH</span>
-                </div>
-                <span className="font-medium">Easy Homes</span>
+               <Image
+                                   src="/easylogo.png"
+                                   alt="logo"
+                                   width={100}
+                                   height={100}
+                                   className="rounded-full"
+                                 />
               </div>
               <p className="text-primary-foreground/80 text-sm leading-relaxed">
                 Revolutionary housing solutions for modern Nigeria through sustainable, affordable modular construction.
@@ -434,6 +438,7 @@ export default function HomePage() {
           <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
             <p className="text-sm text-primary-foreground/80">
               © 2025 Easy Homes Nigeria Limited. All rights reserved. This website is for educational purposes only.
+
             </p>
           </div>
         </div>

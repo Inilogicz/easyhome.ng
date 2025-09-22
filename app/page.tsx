@@ -4,7 +4,7 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { ArrowRight, AlertTriangle, Home, Sparkles, Shield } from "lucide-react"
-
+import Image from "next/image"
 export default function DisclaimerPage() {
   const [accepted, setAccepted] = useState(false)
 
@@ -18,12 +18,13 @@ export default function DisclaimerPage() {
         <div className="text-center mb-16">
           <div className="flex items-center justify-center mb-8">
             <div className="relative">
-              <div className="w-20 h-20 bg-gradient-to-br from-primary to-secondary rounded-2xl flex items-center justify-center shadow-lg">
-                <Home className="w-10 h-10 text-white" />
-              </div>
-              <div className="absolute -top-2 -right-2 w-8 h-8 bg-accent rounded-full flex items-center justify-center">
-                <Sparkles className="w-4 h-4 text-white" />
-              </div>
+             <Image
+                 src="/easylogo.png"
+                  alt="logo"
+                  width={100}
+                   height={100}
+                  className="rounded-full"
+                               />
             </div>
           </div>
           <h1 className="text-5xl md:text-7xl font-light bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent mb-6 text-balance">
@@ -103,7 +104,7 @@ export default function DisclaimerPage() {
                     type="checkbox"
                     checked={accepted}
                     onChange={(e) => setAccepted(e.target.checked)}
-                    className="w-6 h-6 text-primary bg-background border-2 border-primary/30 rounded-md focus:ring-2 focus:ring-primary/20 transition-all"
+                    className="w-6 h-6 text-primary bg-background  border-primary/30 rounded-md focus:ring-2 focus:ring-primary/20 transition-all"
                   />
                   {accepted && (
                     <div className="absolute inset-0 flex items-center justify-center">
@@ -130,7 +131,8 @@ export default function DisclaimerPage() {
 
         <div className="text-center mt-12">
           <p className="text-lg bg-gradient-to-r from-muted-foreground to-muted-foreground/60 bg-clip-text text-transparent">
-            © 2025 Easy Homes Nigeria Limited. All rights reserved.
+            © 2025 Easy Homes Nigeria Limited. All rights reserved. This website is for educational purposes only.
+
           </p>
         </div>
       </div>

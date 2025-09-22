@@ -14,6 +14,7 @@ import {
   Sparkles,
   Building,
 } from "lucide-react"
+import Image from "next/image"
 
 export default function ProductsPage() {
   return (
@@ -86,7 +87,7 @@ export default function ProductsPage() {
               <div className="grid lg:grid-cols-2 gap-0">
                 <div className="aspect-video lg:aspect-auto relative">
                   <img
-                    src="/compact-student-housing-unit-modern-design-nigeria.jpg"
+                    src="/student.png"
                     alt="Compact Student Unit"
                     className="w-full h-full object-cover"
                   />
@@ -194,7 +195,7 @@ export default function ProductsPage() {
               <div className="grid lg:grid-cols-2 gap-0">
                 <div className="aspect-video lg:aspect-auto relative lg:order-2">
                   <img
-                    src="/professional-housing-unit-modern-apartment-nigeria.jpg"
+                    src="/housing.png"
                     alt="Professional Housing Unit"
                     className="w-full h-full object-cover"
                   />
@@ -314,7 +315,7 @@ export default function ProductsPage() {
               <div className="grid lg:grid-cols-2 gap-0">
                 <div className="aspect-video lg:aspect-auto relative">
                   <img
-                    src="/family-home-modular-house-nigeria-three-bedroom-co.jpg"
+                    src="/family.png"
                     alt="Family Home"
                     className="w-full h-full object-cover"
                   />
@@ -573,10 +574,13 @@ export default function ProductsPage() {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-primary-foreground/10 rounded-md flex items-center justify-center">
-                  <span className="text-primary-foreground font-bold text-sm">EH</span>
-                </div>
-                <span className="font-medium">Easy Homes</span>
+               <Image
+                                   src="/easylogo.png"
+                                   alt="logo"
+                                   width={100}
+                                   height={100}
+                                   className="rounded-full"
+                                 />
               </div>
               <p className="text-primary-foreground/80 text-sm leading-relaxed">
                 Revolutionary housing solutions for modern Nigeria through sustainable, affordable modular construction.
@@ -639,9 +643,11 @@ export default function ProductsPage() {
 
           <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
             <p className="text-sm text-primary-foreground/80">
-              © 2025 Easy Homes Nigeria Limited. All rights reserved. This website is for educational purposes only.
+              © 2025 Easy Homes Nigeria Limited.All rights reserved. This website is for educational purposes only.
+
+
             </p>
-          </div>
+            </div>
         </div>
       </footer>
     </div>
