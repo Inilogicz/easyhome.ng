@@ -87,9 +87,9 @@ export default function ProductsPage() {
               <div className="grid lg:grid-cols-2 gap-0">
                 <div className="aspect-video lg:aspect-auto relative">
                   <img
-                    src="/student.png"
+                    src="/student2.png"
                     alt="Compact Student Unit"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover rounded-tl-lg rounded-bl-lg"
                   />
                   <div className="absolute top-4 left-4">
                     <Badge className="bg-primary text-white">Student Housing</Badge>
@@ -131,31 +131,31 @@ export default function ProductsPage() {
                       <div className="w-6 h-6 bg-primary/10 rounded-full flex items-center justify-center">
                         <CheckCircle className="w-4 h-4 text-primary" />
                       </div>
-                      <span>Integrated study areas</span>
+                      <span>One/two bedrooms</span>
                     </div>
                     <div className="flex items-center gap-3 text-sm">
                       <div className="w-6 h-6 bg-primary/10 rounded-full flex items-center justify-center">
                         <CheckCircle className="w-4 h-4 text-primary" />
                       </div>
-                      <span>Murphy beds/loft sleeping</span>
+                      <span> home office</span>
                     </div>
                     <div className="flex items-center gap-3 text-sm">
                       <div className="w-6 h-6 bg-primary/10 rounded-full flex items-center justify-center">
                         <CheckCircle className="w-4 h-4 text-primary" />
                       </div>
-                      <span>Compact kitchenettes</span>
+                      <span>IoT-enabled security</span>
                     </div>
                     <div className="flex items-center gap-3 text-sm">
                       <div className="w-6 h-6 bg-primary/10 rounded-full flex items-center justify-center">
                         <CheckCircle className="w-4 h-4 text-primary" />
                       </div>
-                      <span>High-speed internet</span>
+                      <span>balcony</span>
                     </div>
                     <div className="flex items-center gap-3 text-sm">
                       <div className="w-6 h-6 bg-primary/10 rounded-full flex items-center justify-center">
                         <CheckCircle className="w-4 h-4 text-primary" />
                       </div>
-                      <span>Smart home controls</span>
+                      <span>modular expansion.</span>
                     </div>
                     <div className="flex items-center gap-3 text-sm">
                       <div className="w-6 h-6 bg-primary/10 rounded-full flex items-center justify-center">
@@ -166,10 +166,11 @@ export default function ProductsPage() {
                   </div>
 
                   <div className="bg-gradient-to-r from-primary/10 to-primary/5 rounded-xl p-6 mb-6 border border-primary/20">
-                    <h4 className="font-semibold text-primary mb-3 text-lg">Success Story</h4>
+                    <h4 className="font-semibold text-primary mb-3 text-lg">Case Study</h4>
                     <p className="text-muted-foreground">
-                      University of Lagos Partnership Project - Successfully housed 150 students in modern, efficient
-                      units that improved academic performance through better living conditions.
+                    Lekki Peninsula – Delivered 20 homes to young professionals, reducing housing costs by 40% while offering smart, flood-safe living.
+
+
                     </p>
                   </div>
 
@@ -195,7 +196,7 @@ export default function ProductsPage() {
               <div className="grid lg:grid-cols-2 gap-0">
                 <div className="aspect-video lg:aspect-auto relative lg:order-2">
                   <img
-                    src="/housing.png"
+                    src="/housing3.png"
                     alt="Professional Housing Unit"
                     className="w-full h-full object-cover"
                   />
@@ -209,14 +210,14 @@ export default function ProductsPage() {
                       <Briefcase className="w-8 h-8 text-white" />
                     </div>
                     <div>
-                      <h3 className="text-3xl md:text-4xl font-light text-secondary">Professional Housing Units</h3>
+                      <h3 className="text-3xl md:text-4xl font-light text-secondary">Young Professional Units (YPUs)</h3>
                       <p className="text-muted-foreground">Ideal for young professionals</p>
                     </div>
                   </div>
 
                   <div className="flex items-center gap-8 mb-8">
                     <div className="text-center">
-                      <div className="text-2xl font-bold text-secondary">65-85</div>
+                      <div className="text-2xl font-bold text-secondary">60–80</div>
                       <div className="text-sm text-muted-foreground">Square meters</div>
                     </div>
                     <div className="text-center">
@@ -224,7 +225,7 @@ export default function ProductsPage() {
                       <div className="text-sm text-muted-foreground">Per unit</div>
                     </div>
                     <div className="text-center">
-                      <div className="text-2xl font-bold text-accent">85%</div>
+                      <div className="text-2xl font-bold text-accent">40%</div>
                       <div className="text-sm text-muted-foreground">Cost reduction</div>
                     </div>
                   </div>
@@ -286,10 +287,10 @@ export default function ProductsPage() {
                   </div>
 
                   <div className="bg-gradient-to-r from-secondary/10 to-secondary/5 rounded-xl p-6 mb-6 border border-secondary/20">
-                    <h4 className="font-semibold text-secondary mb-3 text-lg">Success Story</h4>
+                    <h4 className="font-semibold text-secondary mb-3 text-lg">Case Study</h4>
                     <p className="text-muted-foreground">
-                      Lekki Peninsula Development - Delivered 25 professional units providing affordable homeownership
-                      for banking and tech professionals in prime locations.
+                      Lekki Peninsula – Delivered 20 homes to young professionals, reducing housing costs by 40% while offering smart, flood-safe living.
+
                     </p>
                   </div>
 
@@ -315,7 +316,7 @@ export default function ProductsPage() {
               <div className="grid lg:grid-cols-2 gap-0">
                 <div className="aspect-video lg:aspect-auto relative">
                   <img
-                    src="/family.png"
+                    src="/ffamily.png"
                     alt="Family Home"
                     className="w-full h-full object-cover"
                   />
@@ -329,7 +330,7 @@ export default function ProductsPage() {
                       <Users className="w-8 h-8 text-white" />
                     </div>
                     <div>
-                      <h3 className="text-3xl md:text-4xl font-light text-accent">Family Homes</h3>
+                      <h3 className="text-3xl md:text-4xl font-light text-accent"> Family Expandable Homes (FEHs)</h3>
                       <p className="text-muted-foreground">Spacious homes for growing families</p>
                     </div>
                   </div>
@@ -408,8 +409,7 @@ export default function ProductsPage() {
                   <div className="bg-gradient-to-r from-accent/10 to-accent/5 rounded-xl p-6 mb-6 border border-accent/20">
                     <h4 className="font-semibold text-accent mb-3 text-lg">Success Story</h4>
                     <p className="text-muted-foreground">
-                      Victoria Island Family Community - 40-unit complex reduced living costs by 60% while providing
-                      modern amenities and sustainable features.
+                      Victoria Island – Built a 30-unit housing estate with expandable homes, saving families up to 60% in long-term costs.
                     </p>
                   </div>
 
@@ -583,7 +583,7 @@ export default function ProductsPage() {
                                  />
               </div>
               <p className="text-primary-foreground/80 text-sm leading-relaxed">
-                Revolutionary housing solutions for modern Nigeria through sustainable, affordable modular construction.
+                Flood-Proof, Portable Homes Designed for Nigeria’s Changing Climate
               </p>
             </div>
 
@@ -616,10 +616,11 @@ export default function ProductsPage() {
             <div>
               <h4 className="font-medium mb-4">Contact Info</h4>
               <ul className="space-y-2 text-sm text-primary-foreground/80">
-                <li>123 Obafemi Awolowo Way</li>
-                <li>Ikeja, Lagos State</li>
-                <li>+234 (0) 1-234-5678</li>
-                <li>info@easyhomes.ng</li>
+                <li>45 Admiralty Way</li>
+                <li> Lekki Phase 1,</li>
+                <li> Lagos, Nigeria</li>
+                <li>+234 (0) 1-456-7890</li>
+                <li>info@naijamodhomes.ng</li>
               </ul>
             </div>
 
@@ -643,7 +644,7 @@ export default function ProductsPage() {
 
           <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
             <p className="text-sm text-primary-foreground/80">
-              © 2025 Easy Homes Nigeria Limited.All rights reserved. This website is for educational purposes only.
+              © 2025 Naija Mod Homes.All rights reserved. This website is for educational purposes only.
 
 
             </p>

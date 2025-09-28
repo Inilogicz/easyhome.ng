@@ -28,7 +28,7 @@ export default function DisclaimerPage() {
             </div>
           </div>
           <h1 className="text-5xl md:text-7xl font-light bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent mb-6 text-balance">
-            Easy Homes Nigeria
+            Naija Mod Homes
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground text-balance leading-relaxed">
             Revolutionary Housing Solutions for Modern Nigeria
@@ -108,7 +108,7 @@ export default function DisclaimerPage() {
                   />
                   {accepted && (
                     <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="w-3 h-3 bg-primary rounded-sm"></div>
+                      {/* <div className="w-3 h-3 bg-primary rounded-sm"></div> */}
                     </div>
                   )}
                 </div>
@@ -131,7 +131,7 @@ export default function DisclaimerPage() {
 
         <div className="text-center mt-12">
           <p className="text-lg bg-gradient-to-r from-muted-foreground to-muted-foreground/60 bg-clip-text text-transparent">
-            © 2025 Easy Homes Nigeria Limited. All rights reserved. This website is for educational purposes only.
+            © 2025 Naija Mod Homes Limited. All rights reserved. This website is for educational purposes only.
 
           </p>
         </div>

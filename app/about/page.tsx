@@ -36,20 +36,22 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             <Card className="bg-gradient-to-br from-primary/10 to-primary/5 border-primary/20 hover:shadow-lg transition-all">
               <CardContent className="p-6 text-center">
-                <div className="text-3xl font-bold text-primary mb-2">7-14</div>
-                <div className="text-sm text-muted-foreground">Days to Build</div>
+                <div className="text-2xl font-bold text-primary mb-2">Flood-Resistant </div>
+                <div className="text-sm text-muted-foreground">Telescopic metal pillars lift homes above floodwaters.</div>
               </CardContent>
             </Card>
             <Card className="bg-gradient-to-br from-secondary/10 to-secondary/5 border-secondary/20 hover:shadow-lg transition-all">
               <CardContent className="p-6 text-center">
-                <div className="text-3xl font-bold text-secondary mb-2">3M+</div>
-                <div className="text-sm text-muted-foreground">Housing Gap in Lagos</div>
+                <div className="text-2xl font-bold text-secondary mb-2"> Portability</div>
+                <div className="text-sm text-muted-foreground"> Easily uncoupled and transported by trailers.
+</div>
               </CardContent>
             </Card>
             <Card className="bg-gradient-to-br from-accent/10 to-accent/5 border-accent/20 hover:shadow-lg transition-all">
               <CardContent className="p-6 text-center">
-                <div className="text-3xl font-bold text-accent mb-2">100%</div>
-                <div className="text-sm text-muted-foreground">Eco-Friendly Materials</div>
+                <div className="text-2xl font-bold text-accent mb-2">Smart Living</div>
+                <div className="text-sm text-muted-foreground">Integrated with Google Home, solar, and IoT-enabled security.
+</div>
               </CardContent>
             </Card>
           </div>
@@ -65,10 +67,8 @@ export default function AboutPage() {
             </h2>
             <div className="prose prose-lg max-w-none">
               <p className="text-muted-foreground leading-relaxed mb-6 text-lg">
-                Easy Homes was founded with a mission to revolutionize Nigeria's housing sector through sustainable,
-                affordable modular construction. Recognizing Lagos State's 3 million housing unit shortage, we developed
-                innovative solutions that combine international best practices with local materials and cultural
-                preferences.
+               Naija Mod Homes was founded to provide climate-resilient, flexible, and affordable housing in Nigeria. With Lagos increasingly facing flash floods, our homes offer a safe and adaptable alternative—leveraging container-based modular design that can grow, move, and protect families.
+
               </p>
               <p className="text-muted-foreground leading-relaxed text-lg">
                 Our approach addresses the critical housing gap while promoting environmental sustainability and
@@ -89,9 +89,8 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-3xl font-light text-primary mb-6">Mission Statement</h3>
                 <p className="text-muted-foreground leading-relaxed text-lg">
-                  To develop innovative, affordable, and environmentally friendly housing solutions that make cities
-                  better in Nigeria through modular homes that reduce construction costs, minimize environmental impact,
-                  and deliver faster while maintaining quality and style.
+                 To redefine housing in Nigeria by delivering portable, flood-proof, and tech-enabled modular homes that adapt to families, cities, and climate challenges.
+
                 </p>
               </CardContent>
             </Card>
@@ -103,9 +102,8 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-3xl font-light text-secondary mb-6">Vision Statement</h3>
                 <p className="text-muted-foreground leading-relaxed text-lg">
-                  To provide West Africa with the most eco-friendly modular homes, raising industry standards for
-                  quality, affordability, and environmental responsibility while tackling housing shortages in major
-                  cities.
+                  To become Africa’s leading provider of resilient modular housing solutions, setting new standards in affordability, innovation, and sustainability.
+
                 </p>
               </CardContent>
             </Card>
@@ -164,7 +162,7 @@ export default function AboutPage() {
                 <div className="w-20 h-20 bg-gradient-to-br from-primary to-primary/80 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
                   <Shield className="w-10 h-10 text-white" />
                 </div>
-                <h3 className="text-xl font-medium text-primary mb-4">Quality</h3>
+                <h3 className="text-xl font-medium text-primary mb-4"> Resilience</h3>
                 <p className="text-muted-foreground leading-relaxed">
                   Factory-controlled production ensuring consistent excellence
                 </p>
@@ -190,52 +188,11 @@ export default function AboutPage() {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-muted/30">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-light text-foreground mb-4 text-balance">Leadership Team</h2>
+            <h2 className="text-3xl md:text-4xl font-light text-foreground mb-4 text-balance">Founders and Leadership Team</h2>
             <p className="text-lg text-muted-foreground text-balance">Meet the visionaries behind Easy Homes</p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
-            <Card className="border-border/50">
-              <CardContent className="p-8 text-center">
-                <div className="w-24 h-24 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <Image
-                    src="/ceo.png"
-                    alt="Blessing Adenike Olayade"
-                    width={100}
-                    height={100}
-                    className="rounded-full"
-                  />
-                </div>
-                <h3 className="text-xl font-medium text-foreground mb-2">Blessing Adenike Olayade</h3>
-                <p className="text-accent font-medium mb-4">Chief Executive Officer</p>
-                <p className="text-sm text-muted-foreground leading-relaxed">
-                  Brings five years of healthcare management experience with expertise in process optimization, quality
-                  service delivery, and stakeholder management. Holds a Bachelor of Arts from Lagos State University and
-                  PSW Certification from Alpha Career College.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-border/50">
-              <CardContent className="p-8 text-center">
-                <div className="w-24 h-24 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                    <Image
-                    src="/goodness.png"
-                    alt="Blessing Adenike Olayade"
-                    width={100}
-                    height={100}
-                    className="rounded-full"
-                  />
-                </div>
-                <h3 className="text-xl font-medium text-foreground mb-2">Goodness Ajala</h3>
-                <p className="text-accent font-medium mb-4">Chief Technology Officer</p>
-                <p className="text-sm text-muted-foreground leading-relaxed">
-                  Animal Scientist (B.Sc. from Federal University of Agriculture Abeokuta) with specialized training in
-                  Environmental Sustainability. As Project Lead at Integrated Agri-Eco Farm, achieved 30% cost reduction
-                  in livestock facilities.
-                </p>
-              </CardContent>
-            </Card>
+          <div className=" mx-auto ">
 
             <Card className="border-border/50">
               <CardContent className="p-8 text-center">
@@ -249,10 +206,10 @@ export default function AboutPage() {
                   />
                 </div>
                 <h3 className="text-xl font-medium text-foreground mb-2">Olaoluwa Shola Idowu</h3>
-                <p className="text-accent font-medium mb-4">Chief Financial Officer</p>
+                <p className="text-accent font-medium mb-4">Chief Executive Officer</p>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Holds a B.Sc. in Business Administration from Kwara State University with three years of experience in
-                  AI and Large Language Model applications. Combines financial expertise with advanced AI knowledge.
+                 Idowu holds a B.Sc. in Business Administration from Kwara State University with three years of experience in developing resilient, sustainable, and affordable structures in flood-prone areas. His expertise in business administration, financial planning, and sustainable housing solutions uniquely positions him to lead Naija Mod Homes in delivering innovative and climate-resilient housing.
+
                 </p>
               </CardContent>
             </Card>
@@ -265,7 +222,7 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-light text-foreground mb-4 text-balance">Company Milestones</h2>
-            <p className="text-lg text-muted-foreground text-balance">Our journey to revolutionize Nigerian housing</p>
+            <p className="text-lg text-muted-foreground text-balance">Our journey to revolutionize Nigerian housing amidst flood</p>
           </div>
 
           <div className="space-y-8">
@@ -282,8 +239,7 @@ export default function AboutPage() {
               <div>
                 <h3 className="text-lg font-medium text-foreground mb-2">Company Founded</h3>
                 <p className="text-muted-foreground">
-                  Easy Homes established with mission to address Lagos housing crisis through innovative modular
-                  construction.
+                   Company founded to address Lagos flood-resilient housing needs.
                 </p>
               </div>
             </div>
@@ -301,28 +257,12 @@ export default function AboutPage() {
               <div>
                 <h3 className="text-lg font-medium text-foreground mb-2">Manufacturing Facility Secured</h3>
                 <p className="text-muted-foreground">
-                  Secured manufacturing facility location in Agbara Industrial Estate for modular home production.
+                  First flood-proof modular home installed in Lekki Phase 1.
+
                 </p>
               </div>
             </div>
 
-            <div className="flex items-start gap-4">
-              <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center flex-shrink-0">
-               <Image
-                    src="/easylogo.png"
-                    alt="logo"
-                    width={100}
-                    height={100}
-                    className="rounded-full"
-                  />
-              </div>
-              <div>
-                <h3 className="text-lg font-medium text-foreground mb-2">AI Platform Development</h3>
-                <p className="text-muted-foreground">
-                  Developed AI-powered home design platform with VR integration for enhanced customer experience.
-                </p>
-              </div>
-            </div>
 
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 bg-accent rounded-lg flex items-center justify-center flex-shrink-0">
@@ -337,29 +277,11 @@ export default function AboutPage() {
               <div>
                 <h3 className="text-lg font-medium text-foreground mb-2">Strategic Partnerships</h3>
                 <p className="text-muted-foreground">
-                  Established strategic partnerships with local material suppliers to ensure sustainable sourcing.
+                  Strategic partnerships with solar and IoT technology providers.
                 </p>
               </div>
             </div>
 
-            <div className="flex items-start gap-4">
-              <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center flex-shrink-0">
-               <Image
-                    src="/easylogo.png"
-                    alt="logo"
-                    width={100}
-                    height={100}
-                    className="rounded-full"
-                  />
-              </div>
-              <div>
-                <h3 className="text-lg font-medium text-foreground mb-2">Flagship Showroom</h3>
-                <p className="text-muted-foreground">
-                  Opened flagship showroom in Ikeja, Lagos, featuring full-scale modular home displays and VR design
-                  stations.
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -380,7 +302,7 @@ export default function AboutPage() {
                 <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                   <Award className="w-6 h-6 text-accent" />
                 </div>
-                <h3 className="font-medium text-foreground mb-2">Innovation in Sustainable Housing</h3>
+                <h3 className="font-medium text-foreground mb-2">Innovation in Climate-Resilent Housing</h3>
                 <p className="text-sm text-muted-foreground">Lagos State Ministry of Housing</p>
               </CardContent>
             </Card>
@@ -390,7 +312,7 @@ export default function AboutPage() {
                 <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                   <Award className="w-6 h-6 text-accent" />
                 </div>
-                <h3 className="font-medium text-foreground mb-2">Best New Technology Integration</h3>
+                <h3 className="font-medium text-foreground mb-2">Best Modular Housing Startup</h3>
                 <p className="text-sm text-muted-foreground">Nigerian Construction Industry Awards</p>
               </CardContent>
             </Card>
@@ -409,86 +331,88 @@ export default function AboutPage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gradient-to-r from-primary to-secondary text-primary-foreground py-12 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-4 gap-8">
-            <div>
-              <div className="flex items-center space-x-2 mb-4">
-              <Image
-                    src="/easylogo.png"
-                    alt="logo"
-                    width={100}
-                    height={100}
-                    className="rounded-full"
-                  />
+      <footer className="bg-primary text-primary-foreground py-12 px-4 sm:px-6 lg:px-8">
+              <div className="max-w-7xl mx-auto">
+                <div className="grid md:grid-cols-4 gap-8">
+                  <div>
+                    <div className="flex items-center space-x-2 mb-4">
+                     <Image
+                                         src="/easylogo.png"
+                                         alt="logo"
+                                         width={100}
+                                         height={100}
+                                         className="rounded-full"
+                                       />
+                    </div>
+                    <p className="text-primary-foreground/80 text-sm leading-relaxed">
+                      Flood-Proof, Portable Homes Designed for Nigeria’s Changing Climate
+                    </p>
+                  </div>
+      
+                  <div>
+                    <h4 className="font-medium mb-4">Quick Links</h4>
+                    <ul className="space-y-2 text-sm text-primary-foreground/80">
+                      <li>
+                        <a href="/home" className="hover:text-primary-foreground">
+                          Home
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/about" className="hover:text-primary-foreground">
+                          About Us
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/products" className="hover:text-primary-foreground">
+                          Products & Services
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/contact" className="hover:text-primary-foreground">
+                          Contact Us
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+      
+                  <div>
+                    <h4 className="font-medium mb-4">Contact Info</h4>
+                    <ul className="space-y-2 text-sm text-primary-foreground/80">
+                      <li>45 Admiralty Way</li>
+                      <li> Lekki Phase 1,</li>
+                      <li> Lagos, Nigeria</li>
+                      <li>+234 (0) 1-456-7890</li>
+                      <li>info@naijamodhomes.ng</li>
+                    </ul>
+                  </div>
+      
+                  <div>
+                    <h4 className="font-medium mb-4">Newsletter</h4>
+                    <p className="text-sm text-primary-foreground/80 mb-4">
+                      Stay updated on new designs and sustainable living tips.
+                    </p>
+                    <div className="flex gap-2">
+                      <input
+                        type="email"
+                        placeholder="Your email"
+                        className="flex-1 px-3 py-2 text-sm bg-primary-foreground/10 border border-primary-foreground/20 rounded text-primary-foreground placeholder:text-primary-foreground/60"
+                      />
+                      <button className="px-4 py-2 bg-primary-foreground/20 hover:bg-primary-foreground/30 rounded text-sm">
+                        Subscribe
+                      </button>
+                    </div>
+                  </div>
+                </div>
+      
+                <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
+                  <p className="text-sm text-primary-foreground/80">
+                    © 2025 Naija Mod Homes.All rights reserved. This website is for educational purposes only.
+      
+      
+                  </p>
+                  </div>
               </div>
-              <p className="text-primary-foreground/80 text-sm leading-relaxed">
-                Revolutionary housing solutions for modern Nigeria through sustainable, affordable modular construction.
-              </p>
-            </div>
-
-            <div>
-              <h4 className="font-medium mb-4">Quick Links</h4>
-              <ul className="space-y-2 text-sm text-primary-foreground/80">
-                <li>
-                  <a href="/home" className="hover:text-primary-foreground">
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a href="/about" className="hover:text-primary-foreground">
-                    About Us
-                  </a>
-                </li>
-                <li>
-                  <a href="/products" className="hover:text-primary-foreground">
-                    Products & Services
-                  </a>
-                </li>
-                <li>
-                  <a href="/contact" className="hover:text-primary-foreground">
-                    Contact Us
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="font-medium mb-4">Contact Info</h4>
-              <ul className="space-y-2 text-sm text-primary-foreground/80">
-                <li>123 Obafemi Awolowo Way</li>
-                <li>Ikeja, Lagos State</li>
-                <li>+234 (0) 1-234-5678</li>
-                <li>info@easyhomes.ng</li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="font-medium mb-4">Newsletter</h4>
-              <p className="text-sm text-primary-foreground/80 mb-4">
-                Stay updated on new designs and sustainable living tips.
-              </p>
-              <div className="flex gap-2">
-                <input
-                  type="email"
-                  placeholder="Your email"
-                  className="flex-1 px-3 py-2 text-sm bg-primary-foreground/10 border border-primary-foreground/20 rounded text-primary-foreground placeholder:text-primary-foreground/60"
-                />
-                <button className="px-4 py-2 bg-primary-foreground/20 hover:bg-primary-foreground/30 rounded text-sm">
-                  Subscribe
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
-            <p className="text-sm text-primary-foreground/80">
-              © 2025 Easy Homes Nigeria Limited.All rights reserved. This website is for educational purposes only.
-. 
-            </p>
-          </div>
-        </div>
-      </footer>
+            </footer>
     </div>
   )
 }

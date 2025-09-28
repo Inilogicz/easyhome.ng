@@ -19,20 +19,21 @@ export default function HomePage() {
           <div className="text-center max-w-5xl mx-auto">
             <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium mb-6 border border-primary/20">
               <Sparkles className="w-4 h-4" />
-              Revolutionary Housing Solutions
+             Flood-Proof, Portable Homes Designed for Nigeria’s Changing Climate
+
               <Sparkles className="w-4 h-4" />
             </div>
 
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance leading-tight">
-              <span className="text-gradient">Build Your Dream Home</span>
+            <h1 className="text-2xl md:text-4xl lg:text-7xl font-bold mb-6 text-balance leading-tight">
+              <span className="text-gradient">Smart Modular Living for a Resilient Future</span>
               <br />
               <span className="text-foreground">in Just 7-14 Days</span>
             </h1>
 
-            <p className="text-xl md:text-2xl text-muted-foreground mb-8 text-balance leading-relaxed max-w-4xl mx-auto">
-              Easy Homes transforms Nigerian housing with{" "}
-              <span className="text-primary font-semibold">eco-friendly modular construction</span>, cutting-edge
-              technology, and <span className="text-secondary font-semibold">50% cost savings</span>
+            <p className="text-md md:text-xl text-muted-foreground mb-8 text-balance leading-relaxed max-w-4xl mx-auto">
+              Naija Mod Homes is transforming Nigeria’s housing landscape by providing portable, modular container homes that grow with your needs.{" "}
+              <span className="text-primary font-semibold"> Built to withstand flash floods and equipped with cutting-edge technology</span>from smart security to solar energy our homes are affordable, adaptable, and relocatable. <span className="text-secondary font-semibold">Whether you’re a student, professional, or family, Naija Mod Homes gives you the freedom to design, expand, and even move your home when needed.
+</span>
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -41,7 +42,7 @@ export default function HomePage() {
                 className="px-8 py-4 bg-primary hover:bg-primary/90 text-primary-foreground text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
               >
                 <Home className="w-5 h-5 mr-2" />
-                Design Your Home Today
+               Design Your Modular Home Today
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
               <Button
@@ -49,7 +50,7 @@ export default function HomePage() {
                 className="px-8 py-4 bg-secondary hover:bg-secondary/90 text-secondary-foreground text-lg shadow-lg hover:shadow-xl transition-all duration-300"
               >
                 <Users className="w-5 h-5 mr-2" />
-                Schedule Consultation
+                Schedule a Virtual Tour
               </Button>
               <a href="/showroom">
               <Button
@@ -57,7 +58,7 @@ export default function HomePage() {
                 variant="outline"
                 className="px-8 py-4 text-lg border-2 border-accent text-accent hover:bg-accent hover:text-accent-foreground transition-all duration-300 bg-transparent"
               >
-                Visit Our Showroom
+                Learn About Flood-Safe Features
               </Button>
               </a>
             </div>
@@ -84,15 +85,16 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto">
           <div className="relative rounded-2xl overflow-hidden shadow-2xl">
             <img
-              src="/modern-modular-home-in-lagos-nigeria-setting-with-.jpg"
+              src="/hero.png"
               alt="Modern modular home in Lagos setting"
               className="w-full h-[400px] md:h-[600px] object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-primary/30 via-transparent to-secondary/20" />
             <div className="absolute bottom-6 left-6 right-6">
               <div className="bg-white/90 backdrop-blur-sm rounded-xl p-6">
-                <h3 className="text-xl font-bold text-foreground mb-2">Modern Family Home - Lekki</h3>
-                <p className="text-muted-foreground">Completed in 10 days • 3 bedrooms • Solar powered</p>
+                <h3 className="text-xl font-bold text-foreground mb-2">Flood-resistant features and portability process.
+</h3>
+                {/* <p className="text-muted-foreground">Completed in 10 days • 3 bedrooms • Solar powered</p> */}
               </div>
             </div>
           </div>
@@ -116,10 +118,10 @@ export default function HomePage() {
                 <div className="w-16 h-16 bg-primary rounded-2xl flex items-center justify-center mb-6 shadow-lg">
                   <DollarSign className="w-8 h-8 text-primary-foreground" />
                 </div>
-                <h3 className="text-xl font-bold text-foreground mb-4">50% Cost Reduction</h3>
+                <h3 className="text-xl font-bold text-foreground mb-4">Flood-Resistant Design</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Save significantly compared to traditional construction methods while maintaining premium quality and
-                  modern amenities.
+                 Telescopic metal pillars lift homes above floodwaters.
+
                 </p>
               </CardContent>
             </Card>
@@ -129,9 +131,9 @@ export default function HomePage() {
                 <div className="w-16 h-16 bg-secondary rounded-2xl flex items-center justify-center mb-6 shadow-lg">
                   <Clock className="w-8 h-8 text-secondary-foreground" />
                 </div>
-                <h3 className="text-xl font-bold text-foreground mb-4">7-14 Day Assembly</h3>
+                <h3 className="text-xl font-bold text-foreground mb-4"> Portability</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Factory-built components enable rapid on-site assembly, getting you into your new home in record time.
+                   Easily uncoupled and transported by trailers.
                 </p>
               </CardContent>
             </Card>
@@ -141,10 +143,9 @@ export default function HomePage() {
                 <div className="w-16 h-16 bg-success rounded-2xl flex items-center justify-center mb-6 shadow-lg">
                   <Leaf className="w-8 h-8 text-success-foreground" />
                 </div>
-                <h3 className="text-xl font-bold text-foreground mb-4">Eco-Friendly Design</h3>
+                <h3 className="text-xl font-bold text-foreground mb-4"> Expandable Living</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Solar panels, rainwater harvesting, and sustainable materials reduce environmental impact and utility
-                  costs.
+                 Add new container modules as your needs grow.
                 </p>
               </CardContent>
             </Card>
@@ -154,9 +155,10 @@ export default function HomePage() {
                 <div className="w-16 h-16 bg-accent rounded-2xl flex items-center justify-center mb-6 shadow-lg">
                   <Zap className="w-8 h-8 text-accent-foreground" />
                 </div>
-                <h3 className="text-xl font-bold text-foreground mb-4">AI-Powered Customization</h3>
+                <h3 className="text-xl font-bold text-foreground mb-4"> Smart Living</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Design your perfect home with our virtual reality platform and AI-powered customization tools.
+                 Integrated with Google Home, solar, and IoT-enabled security.
+
                 </p>
               </CardContent>
             </Card>
@@ -166,25 +168,14 @@ export default function HomePage() {
                 <div className="w-16 h-16 bg-warning rounded-2xl flex items-center justify-center mb-6 shadow-lg">
                   <Shield className="w-8 h-8 text-warning-foreground" />
                 </div>
-                <h3 className="text-xl font-bold text-foreground mb-4">Quality Guaranteed</h3>
+                <h3 className="text-xl font-bold text-foreground mb-4"> Premium Safety Option</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Factory-controlled production ensures consistent quality and precision in every component and
-                  assembly.
+                   Early flood detection system with SOS evacuation and relocation service.
                 </p>
               </CardContent>
             </Card>
 
-            <Card className="border-2 border-primary/20 hover:border-primary/40 hover:shadow-xl transition-all duration-300 transform hover:scale-105 bg-gradient-to-br from-primary/5 to-primary/10">
-              <CardContent className="p-8">
-                <div className="w-16 h-16 bg-primary rounded-2xl flex items-center justify-center mb-6 shadow-lg">
-                  <Award className="w-8 h-8 text-primary-foreground" />
-                </div>
-                <h3 className="text-xl font-bold text-foreground mb-4">Award-Winning Design</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Recognized for innovation in sustainable housing and modern architectural excellence across Nigeria.
-                </p>
-              </CardContent>
-            </Card>
+            
           </div>
         </div>
       </section>
@@ -363,86 +354,90 @@ export default function HomePage() {
       </section>
 
       {/* Footer */}
+     
+      {/* Footer */}
       <footer className="bg-primary text-primary-foreground py-12 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-4 gap-8">
-            <div>
-              <div className="flex items-center space-x-2 mb-4">
-               <Image
-                                   src="/easylogo.png"
-                                   alt="logo"
-                                   width={100}
-                                   height={100}
-                                   className="rounded-full"
-                                 />
+              <div className="max-w-7xl mx-auto">
+                <div className="grid md:grid-cols-4 gap-8">
+                  <div>
+                    <div className="flex items-center space-x-2 mb-4">
+                     <Image
+                                         src="/easylogo.png"
+                                         alt="logo"
+                                         width={100}
+                                         height={100}
+                                         className="rounded-full"
+                                       />
+                    </div>
+                    <p className="text-primary-foreground/80 text-sm leading-relaxed">
+                      Flood-Proof, Portable Homes Designed for Nigeria’s Changing Climate
+                    </p>
+                  </div>
+      
+                  <div>
+                    <h4 className="font-medium mb-4">Quick Links</h4>
+                    <ul className="space-y-2 text-sm text-primary-foreground/80">
+                      <li>
+                        <a href="/home" className="hover:text-primary-foreground">
+                          Home
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/about" className="hover:text-primary-foreground">
+                          About Us
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/products" className="hover:text-primary-foreground">
+                          Products & Services
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/contact" className="hover:text-primary-foreground">
+                          Contact Us
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+      
+                  <div>
+                    <h4 className="font-medium mb-4">Contact Info</h4>
+                    <ul className="space-y-2 text-sm text-primary-foreground/80">
+                      <li>45 Admiralty Way</li>
+                      <li> Lekki Phase 1,</li>
+                      <li> Lagos, Nigeria</li>
+                      <li>+234 (0) 1-456-7890</li>
+                      <li>info@naijamodhomes.ng</li>
+                    </ul>
+                  </div>
+      
+                  <div>
+                    <h4 className="font-medium mb-4">Newsletter</h4>
+                    <p className="text-sm text-primary-foreground/80 mb-4">
+                      Stay updated on new designs and sustainable living tips.
+                    </p>
+                    <div className="flex gap-2">
+                      <input
+                        type="email"
+                        placeholder="Your email"
+                        className="flex-1 px-3 py-2 text-sm bg-primary-foreground/10 border border-primary-foreground/20 rounded text-primary-foreground placeholder:text-primary-foreground/60"
+                      />
+                      <button className="px-4 py-2 bg-primary-foreground/20 hover:bg-primary-foreground/30 rounded text-sm">
+                        Subscribe
+                      </button>
+                    </div>
+                  </div>
+                </div>
+      
+                <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
+                  <p className="text-sm text-primary-foreground/80">
+                    © 2025 Naija Mod Homes.All rights reserved. This website is for educational purposes only.
+      
+      
+                  </p>
+                  </div>
               </div>
-              <p className="text-primary-foreground/80 text-sm leading-relaxed">
-                Revolutionary housing solutions for modern Nigeria through sustainable, affordable modular construction.
-              </p>
-            </div>
-
-            <div>
-              <h4 className="font-medium mb-4">Quick Links</h4>
-              <ul className="space-y-2 text-sm text-primary-foreground/80">
-                <li>
-                  <Link href="/home" className="hover:text-primary-foreground">
-                    Home
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/about" className="hover:text-primary-foreground">
-                    About Us
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/products" className="hover:text-primary-foreground">
-                    Products & Services
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/contact" className="hover:text-primary-foreground">
-                    Contact Us
-                  </Link>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="font-medium mb-4">Contact Info</h4>
-              <ul className="space-y-2 text-sm text-primary-foreground/80">
-                <li>123 Obafemi Awolowo Way</li>
-                <li>Ikeja, Lagos State</li>
-                <li>+234 (0) 1-234-5678</li>
-                <li>info@easyhomes.ng</li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="font-medium mb-4">Newsletter</h4>
-              <p className="text-sm text-primary-foreground/80 mb-4">
-                Stay updated on new designs and sustainable living tips.
-              </p>
-              <div className="flex gap-2">
-                <input
-                  type="email"
-                  placeholder="Your email"
-                  className="flex-1 px-3 py-2 text-sm bg-primary-foreground/10 border border-primary-foreground/20 rounded text-primary-foreground placeholder:text-primary-foreground/60"
-                />
-                <Button size="sm" variant="secondary">
-                  Subscribe
-                </Button>
-              </div>
-            </div>
-          </div>
-
-          <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
-            <p className="text-sm text-primary-foreground/80">
-              © 2025 Easy Homes Nigeria Limited. All rights reserved. This website is for educational purposes only.
-
-            </p>
-          </div>
-        </div>
-      </footer>
+            </footer>
     </div>
   )
 }
