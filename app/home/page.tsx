@@ -105,7 +105,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-balance">
-              Why Choose <span className="text-gradient">Easy Homes</span>?
+              Why Choose <span className="text-gradient">Naija Mod Homes</span>?
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Experience the future of housing with our innovative approach to modular construction
@@ -277,7 +277,7 @@ export default function HomePage() {
                   ))}
                 </div>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  "Easy Homes made homeownership possible for our family. The process was transparent, fast, and the
+                  "Naija Mod Homes made homeownership possible for our family. The process was transparent, fast, and the
                   quality exceeded our expectations."
                 </p>
                 <div>
@@ -333,7 +333,7 @@ export default function HomePage() {
             Ready to Build Your <span className="text-gradient">Dream Home</span>?
           </h2>
           <p className="text-lg text-muted-foreground mb-8 text-balance">
-            Join hundreds of satisfied homeowners who chose Easy Homes for their housing solution.
+            Join hundreds of satisfied homeowners who chose Naija Mod Homes for their housing solution.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
@@ -362,7 +362,7 @@ export default function HomePage() {
                   <div>
                     <div className="flex items-center space-x-2 mb-4">
                      <Image
-                                         src="/easylogo.png"
+                                         src="https://www.freeiconspng.com/uploads/house-top-icon-png-11.png"
                                          alt="logo"
                                          width={100}
                                          height={100}

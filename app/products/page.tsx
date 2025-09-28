@@ -575,7 +575,7 @@ export default function ProductsPage() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                <Image
-                                   src="/easylogo.png"
+                                   src="https://www.freeiconspng.com/uploads/house-top-icon-png-11.png"
                                    alt="logo"
                                    width={100}
                                    height={100}

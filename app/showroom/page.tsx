@@ -444,7 +444,7 @@ export default function ShowroomPage() {
             Ready to Take the Next Step?
           </h2>
           <p className="text-xl text-muted-foreground mb-12 text-balance">
-            Schedule a personalized consultation or visit our showroom to experience Easy Homes in person.
+            Schedule a personalized consultation or visit our showroom to experience Naija Mod Homes in person.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <Button
@@ -481,7 +481,7 @@ export default function ShowroomPage() {
                   <div>
                     <div className="flex items-center space-x-2 mb-4">
                      <Image
-                                         src="/easylogo.png"
+                                         src="https://www.freeiconspng.com/uploads/house-top-icon-png-11.png"
                                          alt="logo"
                                          width={100}
                                          height={100}
