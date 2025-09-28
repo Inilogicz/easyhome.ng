@@ -19,7 +19,7 @@ export default function DisclaimerPage() {
           <div className="flex items-center justify-center mb-8">
             <div className="relative">
              <Image
-                 src="/easylogo.png"
+                 src="https://www.freeiconspng.com/uploads/house-top-icon-png-11.png"
                   alt="logo"
                   width={100}
                    height={100}
