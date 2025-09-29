@@ -40,9 +40,9 @@ export function Navigation() {
               <Link href="/contact" className="text-muted-foreground hover:text-accent transition-colors">
                 Contact Us
               </Link>
-              <Link href="/" className="text-muted-foreground hover:text-accent transition-colors">
+              {/* <Link href="/" className="text-muted-foreground hover:text-accent transition-colors">
                 Disclaimer
-              </Link>
+              </Link> */}
             </div>
           </div>
 
