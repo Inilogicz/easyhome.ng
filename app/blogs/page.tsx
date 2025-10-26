@@ -59,11 +59,9 @@ export default function BlogIndexPage() {
               </p>
             </CardContent>
             <CardFooter className="p-6 pt-0">
-              <Link href="/blogs/flood-season" legacyBehavior>
-                <Button className="w-full bg-primary hover:bg-primary/90 text-lg">
-                  Read Full Article <ArrowRight className="w-5 h-5 ml-2" />
-                </Button>
-              </Link>
+              <Button asChild className="w-full bg-primary hover:bg-primary/90 text-lg">
+                <Link href="/blogs/flood-season">Read Full Article <ArrowRight className="w-5 h-5 ml-2" /></Link>
+              </Button>
             </CardFooter>
           </Card>
 
@@ -89,11 +87,9 @@ export default function BlogIndexPage() {
               </p>
             </CardContent>
             <CardFooter className="p-6 pt-0">
-              <Link href="/blogs/hidden-costs" legacyBehavior>
-                <Button className="w-full bg-secondary hover:bg-secondary/90 text-secondary-foreground text-lg">
-                  Read Full Article <ArrowRight className="w-5 h-5 ml-2" />
-                </Button>
-              </Link>
+              <Button asChild className="w-full bg-secondary hover:bg-secondary/90 text-secondary-foreground text-lg">
+                <Link href="/blogs/hidden-costs">Read Full Article <ArrowRight className="w-5 h-5 ml-2" /></Link>
+              </Button>
             </CardFooter>
           </Card>
         </div>
