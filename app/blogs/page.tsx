@@ -41,7 +41,7 @@ export default function BlogIndexPage() {
           <Card className="flex flex-col overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02]">
             <div className="aspect-video relative">
               <Image
-                src="/blog/lagos-flood.jpg" // <-- REPLACE THIS IMAGE PATH
+                src="/lagos-flood.png" // <-- REPLACE THIS IMAGE PATH
                 alt="Flooded street in Lagos"
                 layout="fill"
                 objectFit="cover"
@@ -69,7 +69,7 @@ export default function BlogIndexPage() {
           <Card className="flex flex-col overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02]">
             <div className="aspect-video relative">
               <Image
-                src="/blog/costs-calculator.jpg" // <-- REPLACE THIS IMAGE PATH
+                src="/costs-calculator.png" // <-- REPLACE THIS IMAGE PATH
                 alt="Calculator showing costs"
                 layout="fill"
                 objectFit="cover"

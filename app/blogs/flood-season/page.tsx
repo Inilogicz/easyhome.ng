@@ -36,7 +36,7 @@ export default function FloodArticlePage() {
           {/* Main Image */}
           <div className="relative aspect-video rounded-xl overflow-hidden mb-12 shadow-lg">
             <Image
-              src="/blog/lagos-flood.jpg" // <-- REPLACE THIS IMAGE PATH
+              src="/lagos-flood.png" 
               alt="A car driving through a flooded street in Lagos"
               layout="fill"
               objectFit="cover"
@@ -129,7 +129,7 @@ export default function FloodArticlePage() {
               </div>
               <div className="relative aspect-video rounded-xl overflow-hidden shadow-md">
                 <Image
-                  src="/blog/family-couch.jpg" // <-- REPLACE THIS IMAGE PATH
+                  src="/family-couch.png" // <-- REPLACE THIS IMAGE PATH
                   alt="A happy family sitting on a couch"
                   layout="fill"
                   objectFit="cover"
@@ -147,7 +147,7 @@ export default function FloodArticlePage() {
             </p>
             <div className="relative aspect-square md:aspect-video rounded-xl overflow-hidden shadow-md my-8 max-w-md mx-auto">
               <Image
-                src="/blog/emergency-kit.jpg" // <-- REPLACE THIS IMAGE PATH
+                src="/emergency-kit.png" // <-- REPLACE THIS IMAGE PATH
                 alt="An emergency preparedness kit"
                 layout="fill"
                 objectFit="cover"

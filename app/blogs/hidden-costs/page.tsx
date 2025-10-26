@@ -37,7 +37,7 @@ export default function CostsArticlePage() {
           {/* Main Image */}
           <div className="relative aspect-video rounded-xl overflow-hidden mb-12 shadow-lg">
             <Image
-              src="/blog/costs-calculator.jpg" // <-- REPLACE THIS IMAGE PATH
+              src="/costs-calculator.png" // <-- REPLACE THIS IMAGE PATH
               alt="A calculator displaying the word COSTS"
               layout="fill"
               objectFit="cover"
@@ -139,7 +139,7 @@ export default function CostsArticlePage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-8 items-center">
               <div className="relative aspect-video rounded-xl overflow-hidden shadow-md">
                 <Image
-                  src="/blog/solar-house.jpg" // <-- REPLACE THIS IMAGE PATH
+                  src="/solar-house.jpg" // <-- REPLACE THIS IMAGE PATH
                   alt="A modern house with solar panels on the roof"
                   layout="fill"
                   objectFit="cover"
