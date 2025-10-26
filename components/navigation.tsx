@@ -31,6 +31,9 @@ export function Navigation() {
               <Link href="/home" className="text-foreground hover:text-accent transition-colors">
                 Home
               </Link>
+              <Link href="/blogs" className="text-foreground hover:text-accent transition-colors">
+                Blogs
+              </Link>
               <Link href="/about" className="text-muted-foreground hover:text-accent transition-colors">
                 About Us
               </Link>

@@ -2,6 +2,7 @@
 
 import type React from "react"
 
+import { useRouter } from "next/navigation"
 import { useState } from "react"
 import { Navigation } from "@/components/navigation"
 import { Button } from "@/components/ui/button"
@@ -33,6 +34,8 @@ import { format } from "date-fns"
 import Image from "next/image"
 
 export default function ContactPage() {
+  const router = useRouter()
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -57,6 +60,7 @@ export default function ContactPage() {
   const [isScheduleDialogOpen, setIsScheduleDialogOpen] = useState(false)
   const [isDatePickerOpen, setIsDatePickerOpen] = useState(false)
   const [isScheduleConfirmed, setIsScheduleConfirmed] = useState(false)
+  const [isInquirySubmitted, setIsInquirySubmitted] = useState(false)
 
   // Available time slots
   const timeSlots = [
@@ -75,7 +79,25 @@ export default function ContactPage() {
     e.preventDefault()
     // Handle form submission
     console.log("Form submitted:", formData)
-    alert("Thank you for your inquiry! We will contact you within 24 hours.")
+    setIsInquirySubmitted(true)
+    setTimeout(() => {
+      // router.push("/blogs")
+    }, 2000) // Redirect after 2 seconds
+  }
+
+  const handleInquiryModalClose = () => {
+    setIsInquirySubmitted(false)
+    // Reset form data after modal is closed
+    setFormData({
+      name: "",
+      email: "",
+      phone: "",
+      propertyType: "",
+      budget: "",
+      location: "",
+      message: "",
+      contactMethod: "email",
+    })
   }
 
   const handleInputChange = (field: string, value: string) => {
@@ -123,7 +145,7 @@ export default function ContactPage() {
       {/* Hero Section */}
       <section className="pt-24 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-light text-foreground mb-6 text-balance">
+          <h1 className="text-4xl md:text-6xl font-light text-foreground mt-6 text-balance">
             Get in Touch with Naija Mod Homes
           </h1>
           <p className="text-xl text-muted-foreground text-balance leading-relaxed">
@@ -137,6 +159,30 @@ export default function ContactPage() {
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12">
+            {/* Inquiry Submission Confirmation Modal */}
+            <Dialog open={isInquirySubmitted} onOpenChange={setIsInquirySubmitted}>
+              <DialogContent
+                onCloseAutoFocus={() => {
+                  // Reset form after the dialog closes
+                  setFormData({
+                    name: "",
+                    email: "",
+                    phone: "",
+                    propertyType: "",
+                    budget: "",
+                    location: "",
+                    message: "",
+                    contactMethod: "email",
+                  })
+                }}
+              >
+                <div className="text-center py-8">
+                  <CheckCircle className="w-16 h-16 text-success mx-auto mb-4" />
+                  <h3 className="text-xl font-medium text-foreground mb-2">Thank you for your inquiry!</h3>
+                  <p className="text-muted-foreground">An email has been sent </p>
+                </div>
+              </DialogContent>
+            </Dialog>
             {/* Contact Form */}
             <Card className="border-border/50">
               <CardContent className="p-8">

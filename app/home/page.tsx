@@ -37,15 +37,18 @@ export default function HomePage() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+              <a href="/contact">
+
               <Button
                 size="lg"
                 className="px-8 py-4 bg-primary hover:bg-primary/90 text-primary-foreground text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
               >
                 <Home className="w-5 h-5 mr-2" />
-               Design Your Modular Home Today
+               Would you like receive personalized emails about our housing solutions?
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
-              <Button
+              </a>
+              {/* <Button
                 size="lg"
                 className="px-8 py-4 bg-secondary hover:bg-secondary/90 text-secondary-foreground text-lg shadow-lg hover:shadow-xl transition-all duration-300"
               >
@@ -60,7 +63,7 @@ export default function HomePage() {
               >
                 Learn About Flood-Safe Features
               </Button>
-              </a>
+              </a> */}
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
@@ -191,7 +194,7 @@ export default function HomePage() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <Card className="border-2 border-primary/20 hover:border-primary/40 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+            <Card className="  hover:shadow-xl transition-all duration-300 transform hover:scale-105">
               <div className="aspect-video relative overflow-hidden rounded-t-lg">
                 <img
                   src="/student.png"
@@ -199,7 +202,7 @@ export default function HomePage() {
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute top-4 right-4 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-bold">
-                  ₦4-6M
+                  ₦4-6Mb
                 </div>
               </div>
               <CardContent className="p-6">
@@ -212,7 +215,7 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="border-2 border-secondary/20 hover:border-secondary/40 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+            <Card className="  hover:shadow-xl transition-all duration-300 transform hover:scale-105">
               <div className="aspect-video relative overflow-hidden rounded-t-lg">
                 <img
                   src="/housing.png"
@@ -235,7 +238,7 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="border-2 border-accent/20 hover:border-accent/40 hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+            <Card className="  hover:shadow-xl transition-all duration-300 transform hover:scale-105">
               <div className="aspect-video relative overflow-hidden rounded-t-lg">
                 <img
                   src="/family.png"
