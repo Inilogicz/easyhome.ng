@@ -1,7 +1,7 @@
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, DollarSign, Zap, Home } from "lucide-react"
+import { ArrowRight, DollarSign, Zap, Home, Shield } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 import { Metadata } from "next"
