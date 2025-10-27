@@ -4,7 +4,7 @@ import type React from "react"
 
 import { useRouter } from "next/navigation"
 import { useState } from "react"
-import { Navigation } from "@/components/navigation"
+// import { Navigation } from "@/components/navigation"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -140,7 +140,7 @@ export default function ContactPage() {
 
   return (
     <div className="min-h-screen bg-background">
-      <Navigation />
+      {/* <Navigation /> */}
 
       {/* Hero Section */}
       <section className="pt-24 pb-16 px-4 sm:px-6 lg:px-8">
@@ -162,19 +162,7 @@ export default function ContactPage() {
             {/* Inquiry Submission Confirmation Modal */}
             <Dialog open={isInquirySubmitted} onOpenChange={setIsInquirySubmitted}>
               <DialogContent
-                onCloseAutoFocus={() => {
-                  // Reset form after the dialog closes
-                  setFormData({
-                    name: "",
-                    email: "",
-                    phone: "",
-                    propertyType: "",
-                    budget: "",
-                    location: "",
-                    message: "",
-                    contactMethod: "email",
-                  })
-                }}
+                onCloseAutoFocus={() => router.push("/home")}
               >
                 <div className="text-center py-8">
                   <CheckCircle className="w-16 h-16 text-success mx-auto mb-4" />

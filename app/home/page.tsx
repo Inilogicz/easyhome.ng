@@ -41,10 +41,10 @@ export default function HomePage() {
 
               <Button
                 size="lg"
-                className="px-8 py-4 bg-primary hover:bg-primary/90 text-primary-foreground text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+                className="px-6 py-4 text-base sm:px-8 sm:text-lg bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
               >
                 <Home className="w-5 h-5 mr-2" />
-               Would you like receive personalized emails about our housing solutions?
+                Get Personalized Mails?
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
               </a>
